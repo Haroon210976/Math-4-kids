@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths 4 Kids/Addition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+
+        <!-- Navigation Bar -->
+        <div class="navigation containerChild" id="nav">
+            <h1 class="websiteLogo" id="weblogo">Maths 4 Kids</h1>
+            <div class="nav-button" id="btns">
+                <a href="AdditionIndex.html"><button class="nav-buttons" id="nav-btn-1">Addition</button></a>
+                <a href="SubtractionIndex.html"><button class="nav-buttons" id="nav-btn-2">Subtraction</button></a>
+                <a href="MultiplicationIndex.html"><button class="nav-buttons" id="nav-btn-3">Multiplication</button></a>
+                <a href="DivisionIndex.html"><button class="nav-buttons" id="nav-btn-4">Division</button></a>
+            </div>
+        </div>
+
+        <!-- Section -->
+        <div class="section containerChild" id="sec">
+            <span class="sectionequation" id="sec-num-1"></span>
+            <span class="sectionequation">+</span>
+            <span class="sectionequation" id="sec-num-2"></span>
+            <span class="sectionequation">=</span>
+            <span class="sectionequation" id="sec-ans"></span>
+        </div>
+
+        <!-- Answer Options -->
+        <div class="options containerChild" id="opt">
+            <button class="option-buttons" id="opt-btn-1" onclick="colorCorrect() , colorWrongOne()">1</button>
+            <button class="option-buttons" id="opt-btn-2" onclick="colorCorrect() , colorWrongTwo()">2</button>
+            <button class="option-buttons" id="opt-btn-3" onclick="colorCorrect() , colorWrongThree()">3</button>
+            <button class="option-buttons" id="opt-btn-4" onclick="colorCorrect() , colorWrongFour()">4</button>
+        </div>
+    </div>
+    <script src="AdditionScript.js"></script>
+    <!-- <script src="SubtractionScript.js"></script>
+    <script src="MultiplicationScript.js"></script>
+    <script src="DivisionScript.js"></script> -->
+</body>
+
+</html>
